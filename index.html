@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS COMPANY | Cámaras de Seguridad</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background-color: #0f0f0f;
+            color: #f0f0f0;
+        }
+        header {
+            background-color: #0f1f0f;
+            padding: 2rem;
+            text-align: center;
+            border-bottom: 4px solid #00ff88;
+        }
+        header h1 {
+            margin: 0;
+            color: #00ff88;
+            font-size: 2.5rem;
+        }
+        section {
+            padding: 2rem;
+        }
+        .productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+        .producto {
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 255, 136, 0.2);
+        }
+        .producto img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background-color: #0f1f0f;
+            padding: 1rem;
+            text-align: center;
+            border-top: 2px solid #00ff88;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>RS COMPANY</h1>
+    <p>Soluciones modernas en cámaras de seguridad</p>
+</header>
+
+<section>
+    <h2>Productos Destacados</h2>
+    <div class="productos">
+        <div class="producto">
+            <img src="imagenes/producto1.jpg" alt="Cámara de seguridad domo">
+            <h3>Cámara Domo HD</h3>
+            <p>Visión nocturna, conectividad IP y grabación 24/7.</p>
+        </div>
+        <div class="producto">
+            <img src="imagenes/producto2.jpg" alt="Cámara de seguridad bullet">
+            <h3>Cámara Bullet Exterior</h3>
+            <p>Resistente al clima, gran angular y detección de movimiento.</p>
+        </div>
+        <div class="producto">
+            <img src="imagenes/producto3.jpg" alt="Kit de cámaras">
+            <h3>Kit 4 Cámaras + DVR</h3>
+            <p>Todo incluido: cámaras, DVR, cables y fuente de poder.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2025 RS COMPANY. Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
